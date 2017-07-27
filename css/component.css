@@ -58,7 +58,7 @@ svg {
 .line-drawing path {
 	fill: none;
 	stroke: #4c342d;
-	stroke-width: 3;
+	stroke-width: 4;
 }
 
 path.line-round {
@@ -66,7 +66,7 @@ path.line-round {
 }
 
 path.stroke-medium {
-	stroke-width: 2;
+	stroke-width: 3;
 }
 
 path.stroke-thin {
