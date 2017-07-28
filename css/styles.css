@@ -81,7 +81,7 @@ figure:first-child figcaption {
 	max-height: 600px;
 }
 
-@media screen and (max-width: 35.375em) {
+@media screen and (max-width: 40em) {
 
 	body {
 		font-size: 80%;
