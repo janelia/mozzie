@@ -4,30 +4,8 @@ svg {
 
 /* Demo 1 */
 
-.demo-drawings figcaption {
-	margin: 0 auto 0 auto;
-	max-width: 40em;
-	width: 95%;
-	text-align: center;
-}
-
-.demo-drawings figure:first-child figcaption {
-	margin-top: 8em;
-}
-
-.demo-drawings figcaption h2 {
-	font-weight: 300;
-	font-size: 3em;
-	margin-bottom: 0.2em;
-}
-
-.demo-drawings figcaption p {
+figcaption p {
 	font-size: 1.3em;
-}
-
-.drawings {
-	position: relative;
-	max-height: 600px;
 }
 
 .illustration {

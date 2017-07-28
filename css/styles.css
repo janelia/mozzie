@@ -1,0 +1,104 @@
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+	background: #fff;
+	color: #4c342d;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	font-family: 'Poppins', sans-serif;
+}
+
+a:hover, a:focus {
+	color: #6c6e6f;
+	outline: none;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: bold;
+	margin: -10px 0;
+	line-height: 1.2;
+}
+
+h2 {
+	font-size: 1.85em;
+	font-weight: 100;
+	line-height: 1.3;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: " ";
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.container {
+	margin: 5em auto 3em;
+}
+
+figcaption {
+	margin: 0 auto 0 auto;
+	max-width: 40em;
+	width: 95%;
+	text-align: center;
+}
+
+figure:first-child figcaption {
+	margin-top: 4em;
+}
+
+.animated {
+	-webkit-animation-duration: 2s;
+    animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  	animation-fill-mode: both;
+	-webkit-animation-delay: 1.3s;
+    animation-delay: 1.3s;
+}
+
+@-webkit-keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+.fadeIn {
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+
+.drawings {
+	position: relative;
+	max-height: 600px;
+}
+
+@media screen and (max-width: 25em) {
+
+	body {
+		font-size: 80%;
+	}
+
+	figure:first-child figcaption {
+		margin-top: 1em;
+	}
+
+	.drawings {
+		width: 90%;
+		margin: 0 auto;
+		height: 400px;
+	}
+
+	.container {
+		margin: 1em auto 0.5em;
+	}
+
+}
