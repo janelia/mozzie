@@ -82,7 +82,6 @@ figure:first-child figcaption {
 }
 
 @media screen and (max-width: 40em) {
-
 	body {
 		font-size: 80%;
 	}
@@ -103,10 +102,13 @@ figure:first-child figcaption {
 	.container {
 		margin: 1em auto 0.5em;
 	}
-
 }
 
 @media screen and (max-width: 30em) {
+	body {
+		font-size: 70%;
+	}
+
 	figure {
 		margin-top: -5em;
 	}
